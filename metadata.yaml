@@ -1,5 +1,5 @@
 homepage: "https://hamstershield.digitalhamster.com"
 documentation: "https://github.com/MartiDH/gtm-template/blob/main/README.md"
 versions:
-  - sha: "31a47ed45dfe39bf0eaf48e1244874dddd17e799"
+  - sha: "6f353eddcf4f912beaf33369b49e4972396b1304"
     changeNotes: "Initial release of Bot Shield click-fraud detection sensor Custom Tag template."
