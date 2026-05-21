@@ -273,10 +273,12 @@ ___WEB_PERMISSIONS___
   }
 ]
 
-___RESETS___
-{
-  "value": []
-}
-
 ___TESTS___
+
+scenarios: []
+setup: ''
+
+
 ___NOTES___
+
+Created on 21/05/2026, 15:30:00
