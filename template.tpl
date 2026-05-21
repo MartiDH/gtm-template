@@ -9,11 +9,11 @@ Google may provide), as modified from time to time.
 ___INFO___
 {
   "type": "TAG",
-  "id": "cvt_bot_shield_sensor",
+  "id": "cvt_temp_public_id",
   "displayName": "Bot Shield Sensor",
   "categories": ["SECURITY", "UTILITY"],
   "brand": {
-    "id": "brand_bot_shield",
+    "id": "brand_dummy",
     "displayName": "Bot Shield"
   },
   "description": "Deploy the Bot Shield click-fraud detection sensor with sandboxed Google validation.",
