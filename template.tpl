@@ -114,7 +114,7 @@ ___WEB_PERMISSIONS___
         }
       ]
     },
-    "clientType": "web"
+    "isRequired": true
   },
   {
     "instance": {
@@ -137,7 +137,7 @@ ___WEB_PERMISSIONS___
         }
       ]
     },
-    "clientType": "web"
+    "isRequired": true
   },
   {
     "instance": {
@@ -160,15 +160,7 @@ ___WEB_PERMISSIONS___
                   },
                   {
                     "type": 1,
-                    "string": "BS_ENDPOINT"
-                  },
-                  {
-                    "type": 1,
                     "string": "read"
-                  },
-                  {
-                    "type": 1,
-                    "boolean": true
                   },
                   {
                     "type": 1,
@@ -176,14 +168,24 @@ ___WEB_PERMISSIONS___
                   },
                   {
                     "type": 1,
+                    "string": "execute"
+                  }
+                ],
+                "mapValue": [
+                  {
+                    "type": 1,
+                    "string": "BS_ENDPOINT"
+                  },
+                  {
+                    "type": 8,
                     "boolean": true
                   },
                   {
-                    "type": 1,
-                    "string": "execute"
+                    "type": 8,
+                    "boolean": true
                   },
                   {
-                    "type": 1,
+                    "type": 8,
                     "boolean": true
                   }
                 ]
@@ -195,32 +197,34 @@ ___WEB_PERMISSIONS___
                     "type": 1,
                     "string": "key"
                   },
+                  {
+                    "type": 1,
+                    "string": "read"
+                  },
+                  {
+                    "type": 1,
+                    "string": "write"
+                  },
+                  {
+                    "type": 1,
+                    "string": "execute"
+                  }
+                ],
+                "mapValue": [
                   {
                     "type": 1,
                     "string": "BS_KEY"
                   },
                   {
-                    "type": 1,
-                    "string": "read"
-                  },
-                  {
-                    "type": 1,
+                    "type": 8,
                     "boolean": true
                   },
                   {
-                    "type": 1,
-                    "string": "write"
-                  },
-                  {
-                    "type": 1,
+                    "type": 8,
                     "boolean": true
                   },
                   {
-                    "type": 1,
-                    "string": "execute"
-                  },
-                  {
-                    "type": 1,
+                    "type": 8,
                     "boolean": true
                   }
                 ]
@@ -234,15 +238,7 @@ ___WEB_PERMISSIONS___
                   },
                   {
                     "type": 1,
-                    "string": "BS_SITE"
-                  },
-                  {
-                    "type": 1,
                     "string": "read"
-                  },
-                  {
-                    "type": 1,
-                    "boolean": true
                   },
                   {
                     "type": 1,
@@ -250,14 +246,24 @@ ___WEB_PERMISSIONS___
                   },
                   {
                     "type": 1,
+                    "string": "execute"
+                  }
+                ],
+                "mapValue": [
+                  {
+                    "type": 1,
+                    "string": "BS_SITE"
+                  },
+                  {
+                    "type": 8,
                     "boolean": true
                   },
                   {
-                    "type": 1,
-                    "string": "execute"
+                    "type": 8,
+                    "boolean": true
                   },
                   {
-                    "type": 1,
+                    "type": 8,
                     "boolean": true
                   }
                 ]
@@ -267,7 +273,7 @@ ___WEB_PERMISSIONS___
         }
       ]
     },
-    "clientType": "web"
+    "isRequired": true
   }
 ]
 
