@@ -11,7 +11,7 @@ ___INFO___
   "type": "TAG",
   "id": "cvt_temp_public_id",
   "displayName": "Bot Shield Sensor",
-  "categories": ["SECURITY", "UTILITY"],
+  "categories": ["UTILITY", "ANALYTICS"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "Bot Shield"
@@ -80,12 +80,8 @@ if (!endpoint || !apiKey) {
   setInWindow('BS_KEY', apiKey, true);
   setInWindow('BS_SITE', siteId || '', true);
 
-  // Construct URL to sensor.js served by the FastAPI backend.
-  let cleanEndpoint = endpoint;
-  while (cleanEndpoint && cleanEndpoint.charAt(cleanEndpoint.length - 1) === '/') {
-    cleanEndpoint = cleanEndpoint.substring(0, cleanEndpoint.length - 1);
-  }
-  const sensorUrl = cleanEndpoint + '/sensor.js';
+  // Load the sensor script from the central, trusted domain.
+  const sensorUrl = 'https://hamstershield.digitalhamster.com/sensor.js';
 
   // Inject the sensor script
   injectScript(sensorUrl, () => {
