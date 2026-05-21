@@ -73,7 +73,10 @@ if (!endpoint || !apiKey) {
   setInWindow('BS_SITE', siteId || '', true);
 
   // Construct URL to sensor.js served by the FastAPI backend.
-  const cleanEndpoint = endpoint.replace(/\/+$/, '');
+  let cleanEndpoint = endpoint;
+  while (cleanEndpoint && cleanEndpoint.charAt(cleanEndpoint.length - 1) === '/') {
+    cleanEndpoint = cleanEndpoint.substring(0, cleanEndpoint.length - 1);
+  }
   const sensorUrl = cleanEndpoint + '/sensor.js';
 
   // Inject the sensor script
