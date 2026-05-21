@@ -10,8 +10,10 @@ ___INFO___
 {
   "type": "TAG",
   "id": "cvt_temp_public_id",
+  "version": 1,
+  "securityGroups": [],
   "displayName": "Bot Shield Sensor",
-  "categories": ["UTILITY", "ANALYTICS"],
+  "categories": ["ANALYTICS"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "Bot Shield"
@@ -110,6 +112,9 @@ ___WEB_PERMISSIONS___
         }
       ]
     },
+    "clientAnnotations": {
+      "isEditedByUser": true
+    },
     "isRequired": true
   },
   {
@@ -126,12 +131,15 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://*.digitalhamster.com/*"
+                "string": "https://hamstershield.digitalhamster.com/sensor.js"
               }
             ]
           }
         }
       ]
+    },
+    "clientAnnotations": {
+      "isEditedByUser": true
     },
     "isRequired": true
   },
@@ -268,6 +276,9 @@ ___WEB_PERMISSIONS___
           }
         }
       ]
+    },
+    "clientAnnotations": {
+      "isEditedByUser": true
     },
     "isRequired": true
   }
