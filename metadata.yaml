@@ -1,6 +1,8 @@
 homepage: "https://hamstershield.digitalhamster.com"
 documentation: "https://github.com/MartiDH/gtm-template/blob/main/README.md"
 versions:
+  - sha: "93f6e48ea2e9bf84e29d31510996c5ecb018d1d7"
+    changeNotes: "Hardcode script injection URL and align categories with GTM gallery allowed list."
   - sha: "cf42bd35737c72c94a9084bc92efc38c2c34b7f2"
     changeNotes: "Restore GTM standard placeholders cvt_temp_public_id and brand_dummy for validation success."
   - sha: "a59099c19f8c549d2605dd44e33dd21a8abce2ee"
