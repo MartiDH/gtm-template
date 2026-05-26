@@ -1,6 +1,8 @@
 homepage: "https://hamstershield.digitalhamster.com"
 documentation: "https://github.com/MartiDH/gtm-template/blob/main/README.md"
 versions:
+  - sha: "34bf995046dcac208ecbd11e7f9160d6f1244971"
+    changeNotes: "Comply with strict GTM gallery validation rules for version, categories, exact url permission, and clientAnnotations."
   - sha: "f652c48a759da9e78b552a1579cf874f985ab099"
     changeNotes: "Remove non-standard RESETS block and properly format empty TESTS block."
   - sha: "93f6e48ea2e9bf84e29d31510996c5ecb018d1d7"
